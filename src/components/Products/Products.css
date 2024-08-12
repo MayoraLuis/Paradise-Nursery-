@@ -1,0 +1,96 @@
+/* Product Grid */
+.product-grid {
+    display:grid;
+    padding: 6px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 20vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.product-grid img {
+    
+    width: 200px;
+    height: 200px;
+}
+
+.product-grid button{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+
+}
+
+.product-grid h3{
+    font-size:large ;
+}
+
+
+.product-grid button:hover {
+    background-color: #c0392b;
+}
+
+.product-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    /*background-color: pink;*/
+    /* justify-content: space-between; */
+    padding: 20px 16px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Product Card */
+.card {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    
+    gap: 20px;
+}
+
+/* Pseudo-classes - Hover effect on product button */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+
+/* Add Media Query for responsiveness */
+@media (max-width: 768px) {
+    .product-card {
+        flex: 1 1 calc(50% - 20px); /* Adjust width for 2 cards per row with 20px gap on smaller screens */
+        max-width: calc(50% - 20px); /* Adjust max-width for 2 cards per row with 20px gap on smaller screens */
+    }
+}
+
+  .product-button.added-to-cart {
+    background-color: grey; /* Grey when product is added */
+    cursor: not-allowed;
+  }
+
+
+  .card::before {
+    content: "SALE";
+    background-color: #e74c3c;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 0 0 0 5px;
+}

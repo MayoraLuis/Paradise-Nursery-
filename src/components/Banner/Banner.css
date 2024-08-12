@@ -1,0 +1,187 @@
+.about-us-container {
+    width: 1000px;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    /* background-color: red; */
+    text-align: justify;
+  }
+  
+  .about-us-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .plant_logo_right{
+    text-align: right;
+  }
+
+  .plant_logo_left{
+    text-align: left;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    filter: brightness(0.8);
+  }
+
+
+  button {
+    padding: 15px 25px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+  }
+
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  } */
+  
+  .landing-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    filter: brightness(0.8);
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+   top: 100px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0,0,0,0.5);
+    gap: 20px;
+  }
+  
+  .landing_content {
+   margin-top: 430px;
+    margin-left: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    /* background-color: red; */
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .content p,
+  .content h1 {
+    color: white;
+  }
+  
+  .content h1 {
+    font-size: 58px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+  }
+  
+  .content p {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  
+  .divider {
+    width: 50px;
+    height: 2px;
+    background-color: #4caf50;
+    margin: 10px 0;
+  }
+  
+  .get-started-button {
+    padding: 15px 25px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+  }
+  
+  .get-started-button:hover {
+    background-color: #45a049;
+  }
+ 
+
+
+  /*-------------AboutUs.css----*/
+  .about-us-container {
+    width: 1000px;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    /* background-color: red; */
+    text-align: justify;
+  }
+  
+  .about-us-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .plant_logo_right{
+    text-align: right;
+  }
+
+  .plant_logo_left{
+    text-align: left;
+  }
